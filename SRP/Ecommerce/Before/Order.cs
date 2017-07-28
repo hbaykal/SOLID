@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SRP.Ecommerce.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -30,6 +31,7 @@ namespace SRP.Ecommerce.Before
             {
                 try
                 {
+                    Console.WriteLine("Order.NotifyCustomer()");
                     //construct the email message and send it, implementation ignored
                 }
                 catch (Exception ex)

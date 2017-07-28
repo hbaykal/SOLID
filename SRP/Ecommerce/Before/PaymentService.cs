@@ -15,7 +15,7 @@ namespace SRP.Ecommerce.Before
         public decimal AmountToCharge { get; set; }
         public void Charge()
         {
-            throw new AccountBalanceMismatchException();
+            Console.WriteLine("PaymentService.Charge()");
         }
     }
 
@@ -27,7 +27,7 @@ namespace SRP.Ecommerce.Before
     {
         public void Reserve(string identifier, int quantity)
         {
-            throw new InsufficientInventoryException();
+            Console.WriteLine("InventoryService.Reserve()");
         }
     }
 

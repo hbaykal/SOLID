@@ -53,9 +53,9 @@
     <Compile Include="Ecommerce\After\CreditCardOrder.cs" />
     <Compile Include="Ecommerce\After\OnlineOrder.cs" />
     <Compile Include="Ecommerce\After\Order.cs" />
-    <Compile Include="Ecommerce\After\OrderItem.cs" />
     <Compile Include="Ecommerce\After\IReservationService.cs" />
-    <Compile Include="Ecommerce\Before\OrderItem.cs" />
+    <Compile Include="Ecommerce\After\ReservationService.cs" />
+    <Compile Include="Ecommerce\Model\OrderItem.cs" />
     <Compile Include="Ecommerce\Before\Order.cs" />
     <Compile Include="Ecommerce\Before\PaymentService.cs" />
     <Compile Include="Program.cs" />

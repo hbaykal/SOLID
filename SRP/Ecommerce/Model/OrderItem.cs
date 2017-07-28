@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SRP.Ecommerce.After
+namespace SRP.Ecommerce.Model
 {
     public class OrderItem
     {
