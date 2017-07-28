@@ -49,8 +49,20 @@
     <Compile Include="Customer\After\LoginService.cs" />
     <Compile Include="Customer\After\OrderService.cs" />
     <Compile Include="Customer\Before\CustomerService.cs" />
+    <Compile Include="Ecommerce\After\CashOrder.cs" />
+    <Compile Include="Ecommerce\After\CreditCardOrder.cs" />
+    <Compile Include="Ecommerce\After\OnlineOrder.cs" />
+    <Compile Include="Ecommerce\After\Order.cs" />
+    <Compile Include="Ecommerce\After\OrderItem.cs" />
+    <Compile Include="Ecommerce\After\IReservationService.cs" />
+    <Compile Include="Ecommerce\Before\OrderItem.cs" />
+    <Compile Include="Ecommerce\Before\Order.cs" />
+    <Compile Include="Ecommerce\Before\PaymentService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
