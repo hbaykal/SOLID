@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OCP.Log.After;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +12,7 @@ namespace OCP
         static void Main(string[] args)
         {
             Console.WriteLine("Press any key to exit.");
+            Client.LogWrite();
             Console.ReadKey();
         }
     }

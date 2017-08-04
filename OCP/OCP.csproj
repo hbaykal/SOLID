@@ -43,11 +43,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Db\After\AzureDbService.cs" />
+    <Compile Include="Db\After\Client.cs" />
+    <Compile Include="Db\After\IDbService.cs" />
+    <Compile Include="Db\After\OracleDbService.cs" />
+    <Compile Include="Db\After\SqlDbService.cs" />
+    <Compile Include="Db\Before\AzureDbService.cs" />
+    <Compile Include="Db\Before\Client.cs" />
+    <Compile Include="Db\Before\SqlDbService.cs" />
+    <Compile Include="Log\After\Client.cs" />
+    <Compile Include="Log\After\DbLog.cs" />
+    <Compile Include="Log\After\EventLog.cs" />
+    <Compile Include="Log\After\Logger.cs" />
+    <Compile Include="Log\After\LogService.cs" />
+    <Compile Include="Log\After\TextLog.cs" />
+    <Compile Include="Log\Before\EventLog.cs" />
+    <Compile Include="Log\Before\Logger.cs" />
+    <Compile Include="Log\Before\TextLog.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
